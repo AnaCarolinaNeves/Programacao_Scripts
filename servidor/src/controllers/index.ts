@@ -1,8 +1,7 @@
-import Data from "./Data";
+import Data  from "./Data";
 import Matematica from "./Matematica";
 
-
 export{
-    Data, 
+    Data,
     Matematica
 };
