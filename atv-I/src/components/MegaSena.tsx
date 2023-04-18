@@ -6,6 +6,14 @@ function Megasena() {
 
     const {megasena} = UseContexto();
 
+    function acumulou() {
+        if (megasena.acumulado == true){
+            return <div className='text-acc'>ACUMULOU!</div>
+        }else{
+            return <div className='text-acc'>NÃO ACUMULOU!</div>
+        }
+    }
+
     return (
         <div className="container">
             <div className='row'>
@@ -32,7 +40,7 @@ function Megasena() {
                         <div className='circle'>{item.split('')}</div>
                     ))}
                     
-                    <div className='text-acc'>ACUMULOU!</div>
+                    <div className='text-acc'>{acumulou()}</div>
 
                     <p>
                         Concurso {megasena.numeroDoConcurso} {megasena.dataPorExtenso}
