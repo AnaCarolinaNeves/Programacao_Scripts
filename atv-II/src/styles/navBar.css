@@ -1,0 +1,33 @@
+.container-nav {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.nome-lotofacil {
+    color: #930089;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.nome-megasena {
+    color: #209869;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.nome-quina {
+    color: #260085;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.active {
+    color: #ddd;
+    pointer-events: none;
+}

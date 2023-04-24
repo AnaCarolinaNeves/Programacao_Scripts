@@ -1,0 +1,59 @@
+.row {
+    display: flex;
+}
+
+.column {
+    max-width: 30rem;
+    margin: -20px;
+    flex: 50%;
+}
+
+.text-lotofacil {
+    margin-left: 10px;
+    color: #930089;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.text-premio-loto {
+    margin-left: 12px;
+    color: #930089;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 45px;
+}
+
+p {
+    color: #4c556c;
+}
+
+.image-trevo {
+    display: flex;
+    align-items: center;
+}
+
+.text-acc {
+    color: #0066b3;
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.numbers-loto {
+    margin-right: 50px;
+    display: inline-flex;
+    font-size: x-large;
+    color: #930089;
+    font-weight: lighter;
+    align-content: center;
+}
+
+.row-numbers-loto {
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 23rem;
+    margin-left: -20px;
+}
